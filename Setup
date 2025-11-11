@@ -1,0 +1,5 @@
+#first dhi jenkins repo ni download cheyyadaniki..
+#second dhi vachi jenkins key kosam..connect avvadaniki
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
