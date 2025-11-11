@@ -1,5 +1,12 @@
 Go to https://www.jenkins.io/doc/book/installing/linux/#red-hat-centos (Note: only for Linux)
 For windows : https://www.jenkins.io/doc/book/installing/windows/
+
+#first dhi jenkins repo ni download cheyyadaniki..
+#second dhi vachi jenkins key kosam..connect avvadaniki
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
 Steps:
 * Install JAVA on the LX machine.(supported version: java-17-amazon-corretto)
 * Then Install Jenkins on it.
@@ -11,8 +18,4 @@ Steps:
 * Install necessary Plugins.
 Then our setup will be ready.
 
-#first dhi jenkins repo ni download cheyyadaniki..
-#second dhi vachi jenkins key kosam..connect avvadaniki
-sudo wget -O /etc/yum.repos.d/jenkins.repo \
-    https://pkg.jenkins.io/redhat-stable/jenkins.repo
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
