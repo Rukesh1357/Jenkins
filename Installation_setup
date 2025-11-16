@@ -10,6 +10,7 @@ dnf install java-17-amazon-corretto -y
 dnf install jenkins -y
 systemctl status jenkins
 systemctl start jenkins
+dnf install git -y
 
 
 Steps:
