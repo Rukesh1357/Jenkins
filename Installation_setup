@@ -23,5 +23,5 @@ Steps:
 * It propmts for Password. Get it from /var/lib/jenkins/secrets/initialAdminPassword
 * Install necessary Plugins.
 Then our setup will be ready.
-
+edo try chestunna
 
