@@ -22,6 +22,5 @@ Steps:
 * Then connect to Jenkins Dasboard with publicip:8080.
 * It propmts for Password. Get it from /var/lib/jenkins/secrets/initialAdminPassword
 * Install necessary Plugins.
-Then our setup will be ready.
-edo try chestunna
+Then our setup will be ready
 
